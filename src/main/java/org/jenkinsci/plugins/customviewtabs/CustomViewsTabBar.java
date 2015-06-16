@@ -42,6 +42,7 @@ public class CustomViewsTabBar extends ViewsTabBar {
             labelText = formData.getString("labelText");
             tabColour = formData.getString("tabColour");
             
+            
         	save();
             return false;
         }
