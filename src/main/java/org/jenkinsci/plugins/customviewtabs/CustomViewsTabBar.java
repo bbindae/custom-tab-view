@@ -40,7 +40,8 @@ public class CustomViewsTabBar extends ViewsTabBar {
         @Override
         public boolean configure(StaplerRequest req, JSONObject formData) throws FormException {
             labelText = formData.getString("labelText");
-            tabColour = formData.getString("tabColour");            
+            tabColour = formData.getString("tabColour");      
+            
             save();
             return false;
         }
